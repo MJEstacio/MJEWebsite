@@ -1,0 +1,57 @@
+@media all and (max-width: 1024px) {
+  nav {
+    padding: 5px 30px;
+  }
+  nav ul li.navLinks {
+    width: 100%;
+    display: none;
+  }
+  nav ul li.navLinks.show {
+    display: block;
+  }
+  nav ul li.navBtn {
+    display: block;
+  }
+  nav ul li.navLinks:hover {
+    box-shadow: inset 0 0 5px #ec2410,
+      inset 0 0 10px #fb5a4a;
+    border-radius: 0.5rem;
+  }
+  nav ul li.navLinks:hover:after {
+    opacity: 0;
+  }
+
+  .profile-section p {
+    width: 80%;
+    padding: 20px 50px;
+  }
+}
+@media all and (max-width: 768px) {
+  nav {
+    padding: 5px 30px;
+  }
+  nav ul li.navLinks {
+    width: 100%;
+    display: none;
+  }
+  nav ul li.navLinks.show {
+    display: block;
+  }
+  nav ul li.navBtn {
+    display: block;
+  }
+  nav ul li.navLinks:hover {
+    box-shadow: inset 0 0 5px #ec2410,
+      inset 0 0 10px #fb5a4a;
+    border-radius: 0.5rem;
+  }
+  nav ul li.navLinks:hover:after {
+    opacity: 0;
+  }
+  .textSection .hello {
+    font-size: 30px;
+  }
+  .textSection h1 {
+    font-size: 1.8rem;
+  }
+}

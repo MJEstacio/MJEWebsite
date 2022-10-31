@@ -1,0 +1,67 @@
+.socialIcons {
+  display: flex;
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.fb {
+  position: relative;
+  animation: animateleft 1.5s;
+}
+.linkedin {
+  position: relative;
+  animation: animatebottom 1.5s;
+}
+.email {
+  position: relative;
+  animation: animateright 1.5s;
+}
+.fb a {
+  border-radius: 50%;
+}
+.fb a i {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 12px;
+  transition: 0.7s;
+}
+.fb :hover {
+  background-color: white;
+  color: blue;
+}
+.linkedin a {
+  border-radius: 50%;
+}
+.linkedin a i {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.7s;
+  padding: 10px;
+}
+.linkedin :hover {
+  background-color: white;
+  color: blue;
+}
+.email a {
+  border-radius: 50%;
+}
+.email a i {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.7s;
+}
+.email :hover {
+  background-color: white;
+  color: blue;
+}

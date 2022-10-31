@@ -1,0 +1,104 @@
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes w3-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes w3-spinback {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-359deg);
+  }
+}
+.animate-top.active {
+  position: relative;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  animation: animatetop 0.8s;
+}
+.animate-bottom.active {
+  position: relative;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  animation: animatebottom 0.8s;
+}
+.animate-left.active {
+  position: relative;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  animation: animateleft 0.8s;
+}
+.animate-right.active {
+  position: relative;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  animation: animateright 0.8s;
+}
+
+.animate-zoom.active {
+  position: relative;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  animation: animatezoom 0.8s;
+  opacity: 1;
+}
+
+.animate-spin {
+  animation: w3-spin 2s infinite linear;
+}
+.animate-spinback {
+  animation: w3-spinback 2s infinite linear;
+}
+.reveal {
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}

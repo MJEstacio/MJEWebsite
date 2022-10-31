@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="icon" href="images/MJE LOGO.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/social.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/@media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:wght@400;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6c43f4ca38.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="animation.js"></script>
+
+    <title>MJ Dev</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <li class="logo">
+            <img src="images/MJE LOGO.jpg" alt="" />
+            <h1>MJ <span>Dev</span></h1>
+          </li>
+          <li class="navLinks">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navLinks">
+            <a href="#profile">Profile</a>
+          </li>
+          <li class="navLinks">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="navLinks">
+            <a href="#contact">Contact Me</a>
+          </li>
+          <li class="navBtn">
+            <a href="#"><i class="fas fa-bars"></i> </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="home" class="mainSection">
+      <div class="textSection">
+        <h2 class="hello">Hello,</h2>
+        <h1 class="myName">I'm Mark Joseph Estacio</h1>
+        <h2 class="web">a Front End Developer</h2>
+        <div class="socialIcons">
+          <div class="wrapper fb">
+            <a
+              href="https://www.facebook.com/shempot1601"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="wrapper linkedin">
+            <a
+              href="https://www.linkedin.com/in/mjestacio1990/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="wrapper email">
+            <a
+              href="https://www.facebook.com/shempot1601"
+              target="_blank"
+              ><i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="profile" class="profile-section">
+      <div class="dots">
+        <div class="dot animate-left animate-spinback">
+          .
+        </div>
+        <div class="dot animate-left animate-spin">.</div>
+        <div class="dot">.</div>
+        <div class="dot animate-right animate-spinback">
+          .
+        </div>
+        <div class="dot animate-right animate-spin">.</div>
+      </div>
+      <div class="reveal animate-zoom">
+        <img src="images/mjpic.jpg" alt="" />
+      </div>
+      <div>
+        <h3 class="about-me animate-zoom reveal">
+          About Me
+        </h3>
+      </div>
+      <hr />
+      <div>
+        <p class="reveal animate-zoom">
+          Lorem ipsum dolor sit amet. Qui adipisci quasi et
+          sequi nihil et velit culpa! Ab voluptatem
+          temporibus cum ipsum voluptatem qui voluptas
+          harum. Id dolores distinctio qui animi culpa eos
+          earum cupiditate At consequatur necessitatibus. Et
+          illum dicta aut nihil laudantium et sint molestias
+          aut incidunt ipsa. Eum vero recusandae in
+          voluptatem rerum est molestias similique et
+          accusantium internos sed rerum optio id officiis
+          illum qui nihil aperiam. Rem voluptate iure ut
+          voluptas autem in repellendus praesentium in
+          molestiae laboriosam. Non illum sint eos sint
+          saepe est aliquid recusandae et rerum ipsum. Qui
+          quia molestiae aut facere molestiae et sapiente
+          culpa aut voluptatem consequatur. Id libero illo
+          sit minima voluptate qui voluptas neque!
+        </p>
+        <hr />
+      </div>
+    </div>
+    <div class="skills-section">
+      <div class="skills-card"></div>
+    </div>
+
+    <div id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="left-section animate-left reveal">
+          <h2>Contact Us</h2>
+          <div class="address">
+            <i class="fa-solid fa-location-dot">Address</i>
+
+            <p>
+              Pinagbuhatan, Pasig City, Metro Manila,
+              Philippines
+            </p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"> Phone</i>
+
+            <p>+639205010266</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"> Email</i>
+            <p>mjestacioiii@gmail.com</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"> Website</i>
+          </div>
+        </div>
+        <div class="right-section animate-right reveal">
+          <h2>Get in touch</h2>
+          <form action="post">
+            <label for="name"> Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="subject"> Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+            />
+            <label for="Message"> Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h3>©2022 by MJ Estacio</h3>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        $('.navBtn').click(function () {
+          $('ul li').toggleClass('show')
+          $('ul li').toggleClass('hide')
+        })
+      })
+    </script>
+  </body>
+</html>
