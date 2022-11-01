@@ -69,7 +69,6 @@ nav ul .logo img {
   width: 50px;
   border-radius: 50%;
   margin-right: 10px;
-  animation: w3-spin 2s infinite linear;
 }
 nav ul span {
   color: #ec2410;
@@ -153,7 +152,7 @@ nav ul li.navBtn.show i:before {
   font-size: 45px;
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animatetop 0.8s;
+  animation: animatetop 2s;
 }
 
 .textSection h1 {
@@ -162,13 +161,13 @@ nav ul li.navBtn.show i:before {
   font-size: 3rem;
   margin-bottom: 1rem;
   position: relative;
-  animation: animatezoom 0.8s;
+  animation: animatezoom 2s;
 }
 .textSection .web {
   font-family: 'Lobster', cursive;
   font-size: 30px;
   position: relative;
-  animation: animatebottom 0.8s;
+  animation: animatebottom 2s;
 }
 
 /* Main Section */
@@ -215,7 +214,64 @@ nav ul li.navBtn.show i:before {
   animation: animatezoom 1.2s;
 }
 /* Profile Section */
-
+/* Skill Section */
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(25, 25, 25, 0.52),
+      rgba(50, 50, 50, 0.73)
+    ),
+    url('../images/skillbg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.skill-card {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  color: aliceblue;
+  flex-direction: column;
+  background-color: #1e1d1d;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+  font-family: Orbitron, sans-serif;
+  margin: 20px;
+}
+.skill-card:hover {
+  background-color: aliceblue;
+  color: #060606;
+  transform: translatey(-10px);
+  box-shadow: 2px 5px;
+}
+.skill-card i {
+  font-size: 50px;
+}
+.skill-card .fa-html5 {
+  color: orangered;
+}
+.skill-card .fa-css3-alt {
+  color: #36c5f0;
+}
+.skill-card .fa-js {
+  color: #f0db4f;
+}
+.skill-card .fa-wordpress {
+  color: #21759b;
+}
+.skill-card .fa-php {
+  color: #aeb2d5;
+}
 /* Contact Section */
 .contact-section {
   display: flex;
@@ -238,6 +294,7 @@ nav ul li.navBtn.show i:before {
   color: white;
   border-radius: 20px;
   font-family: Poppins, sans-serif;
+  width: 80%;
 }
 .left-section {
   display: flex;
@@ -251,22 +308,23 @@ nav ul li.navBtn.show i:before {
 .left-section div {
   display: flex;
   flex-direction: column;
-
   padding: 20px 0;
   line-height: 20px;
 }
-
+.left-section div i {
+  margin-bottom: 10px;
+}
 .left-section div p {
   margin-left: 12px;
 }
 .right-section {
   display: flex;
   flex-direction: column;
-
   padding: 20px;
   color: black;
   background-color: white;
   border-radius: 20px;
+  width: 40%;
 }
 .right-section h2 {
   text-align: center;
@@ -278,7 +336,8 @@ form {
 }
 form label {
   padding: 10px 0;
-  font-family: Lobster, sans-serif;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
 }
 form input {
   border: none;
@@ -287,5 +346,26 @@ form input {
   padding: 5px;
   font-family: Poppins, sans-serif;
 }
-
+form textarea {
+  font-family: Poppins, sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+form input[type='submit'] {
+  border: none;
+  background-color: #36c5f0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+form input[type='submit']:hover {
+  background-color: white;
+  color: #36c5f0;
+  border: 2px solid #36c5f0;
+}
 /*  */

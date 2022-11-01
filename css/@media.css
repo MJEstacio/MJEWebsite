@@ -20,10 +20,16 @@
   nav ul li.navLinks:hover:after {
     opacity: 0;
   }
-
   .profile-section p {
     width: 80%;
     padding: 20px 50px;
+  }
+  .contact-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .right-section {
+    width: 95%;
   }
 }
 @media all and (max-width: 768px) {

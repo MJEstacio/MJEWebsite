@@ -65,28 +65,28 @@
 .animate-top.active {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animatetop 0.8s;
+  animation: animatetop 1s;
 }
 .animate-bottom.active {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animatebottom 0.8s;
+  animation: animatebottom 1s;
 }
 .animate-left.active {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animateleft 0.8s;
+  animation: animateleft 1s;
 }
 .animate-right.active {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animateright 0.8s;
+  animation: animateright 1s;
 }
 
 .animate-zoom.active {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animatezoom 0.8s;
+  animation: animatezoom 1s;
   opacity: 1;
 }
 
@@ -97,6 +97,7 @@
   animation: w3-spinback 2s infinite linear;
 }
 .reveal {
+  position: relative;
   opacity: 0;
 }
 .reveal.active {

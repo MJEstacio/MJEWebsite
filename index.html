@@ -125,8 +125,27 @@
         <hr />
       </div>
     </div>
-    <div class="skills-section">
-      <div class="skills-card"></div>
+    <div class="skill-section">
+      <div class="skill-card animate-left reveal">
+        <i class="fa-brands fa-html5"></i>
+        <h4>HTML</h4>
+      </div>
+      <div class="skill-card animate-top reveal">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h4>CSS</h4>
+      </div>
+      <div class="skill-card animate-zoom reveal">
+        <i class="fa-brands fa-js"></i>
+        <h4>JavaScript</h4>
+      </div>
+      <div class="skill-card animate-top reveal">
+        <i class="fa-brands fa-wordpress"></i>
+        <h4>WordPress</h4>
+      </div>
+      <div class="skill-card animate-right reveal">
+        <i class="fa-brands fa-php"></i>
+        <h4>Php</h4>
+      </div>
     </div>
 
     <div id="contact" class="contact-section">
@@ -143,7 +162,6 @@
           </div>
           <div class="phone">
             <i class="fa-solid fa-phone"> Phone</i>
-
             <p>+639205010266</p>
           </div>
           <div>
@@ -156,16 +174,33 @@
         </div>
         <div class="right-section animate-right reveal">
           <h2>Get in touch</h2>
-          <form action="post">
+          <form
+            method="post"
+            action="mailto:mjestacioiii@gmail.com"
+          >
             <label for="name"> Name</label>
-            <input type="text" name="name" id="name" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
             <label for="email"> Email</label>
-            <input type="email" name="email" id="email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
             <label for="subject"> Subject</label>
             <input
               type="text"
               name="subject"
               id="subject"
+              placeholder="Subject"
+              required
             />
             <label for="Message"> Message</label>
             <textarea
@@ -173,7 +208,15 @@
               id="message"
               cols="30"
               rows="10"
+              placeholder="Message. . ."
+              required
             ></textarea>
+            <input
+              type="submit"
+              class="submit"
+              name="submit"
+              value="submit"
+            />
           </form>
         </div>
       </div>

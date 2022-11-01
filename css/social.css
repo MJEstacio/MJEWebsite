@@ -10,15 +10,15 @@
 }
 .fb {
   position: relative;
-  animation: animateleft 1.5s;
+  animation: animateleft 2s;
 }
 .linkedin {
   position: relative;
-  animation: animatebottom 1.5s;
+  animation: animatebottom 2s;
 }
 .email {
   position: relative;
-  animation: animateright 1.5s;
+  animation: animateright 2s;
 }
 .fb a {
   border-radius: 50%;
