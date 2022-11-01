@@ -93,7 +93,7 @@ nav ul li.navLinks {
   position: relative;
   order: 3;
   text-transform: uppercase;
-  font-family: 'Macondo', cursive;
+  font-family: 'Roboto', cursive;
 }
 nav ul li.navLinks:after {
   position: absolute;
@@ -148,7 +148,7 @@ nav ul li.navBtn.show i:before {
   align-items: center;
 }
 .textSection .hello {
-  font-family: 'Lobster', cursive;
+  font-family: 'Orbitron', cursive;
   font-size: 45px;
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
@@ -164,7 +164,7 @@ nav ul li.navBtn.show i:before {
   animation: animatezoom 2s;
 }
 .textSection .web {
-  font-family: 'Lobster', cursive;
+  font-family: 'Orbitron', cursive;
   font-size: 30px;
   position: relative;
   animation: animatebottom 2s;
@@ -198,7 +198,7 @@ nav ul li.navBtn.show i:before {
   text-align: center;
   font-size: 50px;
   color: white;
-  font-family: 'Macondo', cursive;
+  font-family: 'Orbitron', cursive;
 }
 .profile-section p {
   width: 70%;
@@ -206,10 +206,10 @@ nav ul li.navBtn.show i:before {
   margin: 10px auto;
   line-height: 30px;
   padding: 20px 150px;
-  background-color: #1e1d1d;
+  background-color: white;
   border-radius: 20px;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   animation: animatezoom 1.2s;
 }
