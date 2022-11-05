@@ -10,15 +10,19 @@
 }
 .fb {
   position: relative;
-  animation: animateleft 2s;
+  animation: animateleft 3s;
 }
 .linkedin {
   position: relative;
-  animation: animatebottom 2s;
+  animation: animateright 3s;
+}
+.github {
+  position: relative;
+  animation: animatebottom 3s;
 }
 .email {
   position: relative;
-  animation: animateright 2s;
+  animation: animatebottom 3s;
 }
 .fb a {
   border-radius: 50%;
@@ -55,7 +59,7 @@
 }
 .email a i {
   color: white;
-  background-color: blue;
+  background-color: black;
   border-radius: 50%;
   font-size: 20px;
   padding: 10px;
@@ -63,5 +67,23 @@
 }
 .email :hover {
   background-color: white;
-  color: blue;
+  color: black;
+}
+
+.github a {
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.7s;
+}
+
+.github a i {
+  border-radius: 50%;
+  font-size: 40px;
+  color: black;
+  transition: 0.7s;
+  text-decoration: none;
+}
+.github :hover {
+  background-color: black;
+  color: white;
 }
