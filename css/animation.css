@@ -62,28 +62,28 @@
     transform: rotate(-359deg);
   }
 }
-.animate-top.active {
+.animate-top {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
   animation: animatetop 1s;
 }
-.animate-bottom.active {
+.animate-bottom {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
   animation: animatebottom 1s;
 }
-.animate-left.active {
+.animate-left {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
   animation: animateleft 1s;
 }
-.animate-right.active {
+.animate-right {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
   animation: animateright 1s;
 }
 
-.animate-zoom.active {
+.animate-zoom {
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
   animation: animatezoom 1s;
@@ -95,11 +95,4 @@
 }
 .animate-spinback {
   animation: w3-spinback 2s infinite linear;
-}
-.reveal {
-  position: relative;
-  opacity: 0;
-}
-.reveal.active {
-  opacity: 1;
 }

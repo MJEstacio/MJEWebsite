@@ -89,7 +89,7 @@ nav ul li.navLinks {
   width: auto;
   margin: 0 30px;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   position: relative;
   order: 3;
   text-transform: uppercase;
@@ -115,6 +115,7 @@ nav ul li i {
 }
 nav ul li.navBtn {
   display: none;
+  padding: 10px;
 }
 
 nav ul li.navBtn.show i:before {
@@ -234,17 +235,14 @@ nav ul li.navBtn.show i:before {
 .skill-section h1 {
   text-align: center;
   color: aliceblue;
-  width: 400px;
+  width: 50vw;
   background-color: rgba(25, 25, 25, 0.9);
   border-radius: 20px;
   padding: 20px;
   margin: auto;
   transition: 1s ease;
 }
-.skill-section h1:hover {
-  transform: translateY(-10px);
-  color: #ec2410;
-}
+
 .skill-container {
   display: flex;
 
@@ -291,7 +289,16 @@ nav ul li.navBtn.show i:before {
 .skill-card .fa-php {
   color: #aeb2d5;
 }
-
+.skill-card .fa-react {
+  color: #61dbfb;
+}
+.skill-card .fa-node-js {
+  color: #68a063;
+}
+.skill-card p {
+  font-size: 10px;
+  color: grey;
+}
 /* Services Section */
 .services-section {
   position: relative;
@@ -320,7 +327,6 @@ nav ul li.navBtn.show i:before {
   flex-direction: column;
   background-color: #1e1d1d;
   justify-content: center;
-
   transition: 1s ease;
   font-family: Orbitron, sans-serif;
   margin: 20px;

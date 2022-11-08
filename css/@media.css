@@ -1,17 +1,14 @@
 @media all and (max-width: 1024px) {
   nav {
-    padding: 5px 30px;
+    padding: 5px 10px;
   }
   nav ul li.navLinks {
-    width: 100%;
-    display: none;
+    font-size: 15px;
   }
   nav ul li.navLinks.show {
     display: block;
   }
-  nav ul li.navBtn {
-    display: block;
-  }
+
   nav ul li.navLinks:hover {
     box-shadow: inset 0 0 5px #ec2410,
       inset 0 0 10px #fb5a4a;
@@ -32,16 +29,21 @@
   }
   .contact-container {
     width: 100%;
+    padding: 20px 0;
+  }
+  .left-section {
+    width: 30%;
+  }
+  .right-section {
+    width: 50%;
   }
 
-  .right-section {
-    width: 95%;
-  }
   /* Service Section */
   .service-card {
-    width: 80%;
+    width: 40%;
   }
 }
+/* Tablet Size */
 @media all and (max-width: 768px) {
   nav {
     padding: 5px 30px;
@@ -72,5 +74,203 @@
   }
   .service-card {
     width: 95%;
+  }
+  .left-section {
+    width: 90%;
+  }
+  .right-section {
+    width: 90%;
+  }
+}
+/* Mobile Size - L */
+@media all and (max-width: 425px) {
+  nav {
+    padding: 5px 10px;
+  }
+  nav ul li.navLinks {
+    width: 100%;
+    display: none;
+  }
+  nav ul li.navLinks.show {
+    display: block;
+  }
+  nav ul li.navBtn {
+    display: block;
+  }
+  nav ul li.navLinks:hover {
+    border-radius: 0.5rem;
+  }
+  nav ul li.navLinks:hover:after {
+    opacity: 0;
+  }
+  .textSection .hello {
+    font-size: 20px;
+  }
+  .textSection h1 {
+    font-size: 1.5rem;
+  }
+  .textSection .web {
+    font-size: 20px;
+  }
+  /* Profile Section */
+  .profile-section .about-me {
+    font-size: 30px;
+  }
+  .profile-section p {
+    font-size: 15px;
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .skill-section h1 {
+    width: 80%;
+    font-size: 25px;
+  }
+  .skill-card {
+    width: 90%;
+  }
+  /* Service Section */
+  .service-section {
+    padding: 10px;
+  }
+  .service-card {
+    width: 100%;
+  }
+  .service-card h4 {
+    font-size: 15px;
+  }
+  .service-card p {
+    font-size: 12px;
+  }
+
+  /* Contact Section */
+  .left-section {
+    width: 90%;
+  }
+  .right-section {
+    width: 90%;
+  }
+}
+/* Mobile Size- S */
+@media all and (max-width: 375px) {
+  nav {
+    padding: 0;
+  }
+  nav ul li.navLinks {
+    width: 80%;
+    display: none;
+  }
+  nav ul li.navLinks.show {
+    display: block;
+  }
+  nav ul li.navBtn {
+    display: block;
+  }
+  nav ul li.navLinks:hover {
+    border-radius: 0.5rem;
+  }
+  nav ul li.navLinks:hover:after {
+    opacity: 0;
+  }
+  .textSection .hello {
+    font-size: 15px;
+  }
+  .textSection h1 {
+    font-size: 1rem;
+  }
+  .textSection .web {
+    font-size: 15px;
+  }
+  .service-card {
+    width: 95%;
+  }
+  /* Contact Section */
+  .contact-section {
+    padding: 0;
+  }
+
+  .left-section {
+    width: 90%;
+  }
+  .left-section h2,
+  .left-section i,
+  .left-section p {
+    font-size: 12px;
+  }
+
+  .right-section {
+    width: 90%;
+  }
+  .right-section h4 {
+    font-size: 15px;
+  }
+  .right-section h2 {
+    font-size: 20px;
+  }
+  .right-section label,
+  .right-section input {
+    font-size: 12px;
+  }
+  /* Social Icons */
+  .fb a i {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 5px 6px;
+    transition: 0.7s;
+  }
+  .fb :hover {
+    background-color: white;
+    color: blue;
+  }
+  .linkedin a {
+    border-radius: 50%;
+  }
+  .linkedin a i {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 10px;
+    transition: 0.7s;
+    padding: 5px;
+  }
+  .linkedin :hover {
+    background-color: white;
+    color: blue;
+  }
+  .email a {
+    border-radius: 50%;
+  }
+  .email a i {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 5px;
+    transition: 0.7s;
+  }
+  .email :hover {
+    background-color: white;
+    color: black;
+  }
+
+  .github a {
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.7s;
+  }
+
+  .github a i {
+    border-radius: 50%;
+    font-size: 10px;
+    color: black;
+    padding: 5px;
+    transition: 0.7s;
+    text-decoration: none;
+  }
+  .github :hover {
+    background-color: black;
+    color: white;
   }
 }
