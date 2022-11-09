@@ -44,7 +44,7 @@ hr {
 /* Nav Section */
 nav {
   background-color: #1e1d1d;
-  padding: 5px 40px;
+  padding: 5px 30px;
 
   border-bottom: 1px solid #ec2410;
 }
@@ -270,6 +270,7 @@ nav ul li.navBtn.show i:before {
   color: #060606;
   transform: translatey(-10px);
   box-shadow: 2px 5px;
+  transition: 1s ease-in-out;
 }
 .skill-card i {
   font-size: 50px;
@@ -299,17 +300,70 @@ nav ul li.navBtn.show i:before {
   font-size: 10px;
   color: grey;
 }
+.skill-card h4,
+.skill-card p {
+  cursor: default;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  position: relative;
+  justify-content: center;
+}
+.portfolio-header {
+  display: flex;
+  background-color: #060606;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: Orbitron, sans-serif;
+  padding: 20px 0;
+}
+.portfolio-card {
+  background-color: #150020;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  transition: 0.5s ease-in-out;
+}
+.portfolio-card img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid red;
+  transition: 1s ease-in-out;
+}
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+.portfolio-card h2 {
+  color: white;
+  padding: 10px;
+}
+.portfolio-card a {
+  color: white;
+}
+
 /* Services Section */
 .services-section {
   position: relative;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 .services-section h2 {
   font-family: Orbitron, sans-serif;
   text-transform: uppercase;
   text-align: center;
+  color: white;
+  background-color: #060606;
+  padding: 20px 0;
 }
 .service-container {
   display: flex;
@@ -449,3 +503,4 @@ form input[type='submit']:hover {
   border: 2px solid #36c5f0;
 }
 /*  */
+/* Button animated */

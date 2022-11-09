@@ -81,6 +81,12 @@
   .right-section {
     width: 90%;
   }
+  .portfolio-section {
+    flex-direction: column;
+  }
+  .portfolio-card {
+    width: 90%;
+  }
 }
 /* Mobile Size - L */
 @media all and (max-width: 425px) {
@@ -129,6 +135,8 @@
   .skill-card {
     width: 90%;
   }
+  /* Portfolio Section */
+
   /* Service Section */
   .service-section {
     padding: 10px;
