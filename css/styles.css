@@ -218,7 +218,7 @@ nav ul li.navBtn.show i:before {
 /* Skill Section */
 .skill-section {
   position: relative;
-  padding: 20px;
+  padding: 40px 0;
   justify-content: center;
   align-items: center;
 
@@ -309,7 +309,7 @@ nav ul li.navBtn.show i:before {
 .portfolio-section {
   display: flex;
   align-items: center;
-
+  padding: 40px 0;
   position: relative;
   justify-content: center;
 }
