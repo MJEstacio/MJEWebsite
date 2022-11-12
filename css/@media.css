@@ -55,7 +55,7 @@
   nav ul li.navLinks.show {
     display: block;
   }
-  nav ul li.navBtn {
+  .navBtn {
     display: block;
   }
   nav ul li.navLinks:hover {

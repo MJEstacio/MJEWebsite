@@ -23,41 +23,36 @@
       src="https://kit.fontawesome.com/6c43f4ca38.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-    <script src="animation.js"></script>
 
     <title>MJ Dev</title>
   </head>
   <body>
-    <div class="header">
-      <nav>
-        <ul class="nav-containern">
-          <li class="logo">
-            <img src="images/MJE LOGO.jpg" alt="" />
-            <h1>MJ <span>Dev</span></h1>
-          </li>
-          <li class="navLinks">
-            <a href="#home">Home</a>
-          </li>
-          <li class="navLinks">
-            <a href="#profile">Profile</a>
-          </li>
-          <li class="navLinks">
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li class="navLinks">
-            <a href="#services">Services</a>
-          </li>
-
-          <li class="navLinks">
-            <a href="#contact">Contact </a>
-          </li>
-          <li class="navBtn">
-            <a href="#"><i class="fas fa-bars"></i> </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./images/MJE LOGO.jpg" alt=""
+        /></a>
+        <h1>MJ Dev</h1>
+      </div>
+      <div class="nav-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul id="nav-links">
+        <li>
+          <a class="nav-active" href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#profile">Profile</a>
+        </li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li class="contact">
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
     <div id="home" class="mainSection">
       <div class="textSection">
         <h2 class="hello">Hello,</h2>
@@ -256,7 +251,7 @@
         </div>
       </div>
     </div>
-    <div id="contact"><h2>CONTACT</h2></div>
+    <div id="contact"><h2>CONTACT US</h2></div>
     <div class="contact-section">
       <div class="contact-container">
         <div class="left-section animate-left">
@@ -339,18 +334,9 @@
         </div>
       </div>
     </div>
-
+    <script src="scripts.js"></script>
     <footer>
       <h3>©2022 by MJ Estacio</h3>
     </footer>
-
-    <script>
-      $(document).ready(function () {
-        $('.navBtn').click(function () {
-          $('ul li').toggleClass('show')
-          $('ul li').toggleClass('hide')
-        })
-      })
-    </script>
   </body>
 </html>
