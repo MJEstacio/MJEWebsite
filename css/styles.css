@@ -217,7 +217,6 @@ nav ul li a:hover:after {
   font-size: 45px;
   position: relative;
   transition: opacity 1.5s ease, transform 1.5s ease;
-  animation: animatetop 2s;
 }
 
 .textSection h1 {
@@ -226,13 +225,12 @@ nav ul li a:hover:after {
   font-size: 3rem;
   margin-bottom: 1rem;
   position: relative;
-  animation: animatezoom 2s;
 }
 .textSection .web {
   font-family: 'Orbitron', cursive;
   font-size: 30px;
   position: relative;
-  animation: animatebottom 2s;
+  z-index: 5;
 }
 
 /* Main Section */
@@ -273,10 +271,9 @@ nav ul li a:hover:after {
   padding: 20px 150px;
   background-color: white;
   border-radius: 20px;
-  color: black;
+
   font-family: 'Roboto', sans-serif;
   position: relative;
-  animation: animatezoom 1.2s;
 }
 /* Profile Section */
 /* Skill Section */
@@ -332,9 +329,8 @@ nav ul li a:hover:after {
 .skill-card:hover {
   background-color: aliceblue;
   color: #060606;
-  transform: translatey(-10px);
+
   box-shadow: 2px 5px;
-  transition: 1s ease-in-out;
 }
 .skill-card i {
   font-size: 50px;
