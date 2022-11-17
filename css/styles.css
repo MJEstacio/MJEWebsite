@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Orbitron', cursive;
@@ -11,7 +12,6 @@ body {
 }
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 /* HR Line */
 .dots {
@@ -273,9 +273,33 @@ nav ul li a:hover:after {
   padding: 20px 150px;
   background-color: white;
   border-radius: 20px;
-
   font-family: 'Roboto', sans-serif;
   position: relative;
+}
+.dlcv-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dlcv-btn button {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.dlcv-btn button:hover {
+  background-color: #ec2410;
+  color: white;
+  transform: translateY(-5px);
+}
+.dlcv-btn a {
+  text-decoration: none;
+  color: #ec2410;
+  position: relative;
+}
+
+.dlcv-btn a button {
+  font-family: 'Orbitron', cursive;
 }
 /* Profile Section */
 /* Skill Section */
