@@ -3,12 +3,13 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  overflow-x: hidden;
 }
 body {
   font-family: 'Orbitron', cursive;
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  position: relative;
 }
 html {
   scroll-behavior: smooth;
@@ -32,7 +33,6 @@ html {
 hr {
   width: 80%;
   padding: 1px;
-
   outline: none;
   background-color: #ec2410;
   display: block;

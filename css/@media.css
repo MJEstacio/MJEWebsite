@@ -45,8 +45,11 @@
 }
 /* Tablet Size */
 @media all and (max-width: 768px) {
+  body {
+    width: 100vw;
+  }
   nav {
-    padding: 5px 30px;
+    padding: 5px;
   }
   nav ul li.navLinks {
     width: 100%;
