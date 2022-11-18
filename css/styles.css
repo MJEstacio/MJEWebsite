@@ -438,6 +438,17 @@ nav ul li a:hover:after {
   color: white;
   padding: 10px;
 }
+.portfolio-card .tools {
+  margin: 5px 5px;
+}
+.tools span {
+  color: white;
+  padding: 5px 10px;
+  background-color: #ec2410;
+  margin: 10px 5px;
+  border-radius: 20px;
+  font-size: 10px;
+}
 .portfolio-card a {
   color: white;
 }
