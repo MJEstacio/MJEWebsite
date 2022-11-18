@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DotGothic16&family=Lobster&family=Macondo&family=Orbitron&family=Play&family=Poppins&family=Press+Start+2P&family=Rampart+One&family=Roboto:wght@400;700&family=Russo+One&family=Rye&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DotGothic16&family=Lobster&family=Macondo&family=Orbitron&family=Permanent+Marker&family=Play&family=Poppins&family=Press+Start+2P&family=Rampart+One&family=Roboto:wght@400;700&family=Russo+One&family=Rye&family=Sacramento&display=swap');
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Orbitron', cursive;
   display: flex;
@@ -11,17 +16,13 @@ body {
   width: 100vw;
   position: relative;
 }
-html {
-  scroll-behavior: smooth;
-}
-/* HR Line */
+
 .dots {
   display: flex;
   flex-direction: row;
   width: 50%;
   align-items: center;
   cursor: default;
-
   justify-content: center;
 }
 .dots .dot {
@@ -29,7 +30,10 @@ html {
   font-size: 30px;
   margin: 10px;
   border-radius: 50%;
-}
+} /*# sourceMappingURL=styles.css.map */
+
+/* HR Line */
+
 hr {
   width: 80%;
   padding: 1px;
@@ -412,7 +416,7 @@ nav ul li a:hover:after {
   background-color: #150020;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   justify-content: center;
   border-radius: 20px;
   align-items: center;
