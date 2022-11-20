@@ -13,7 +13,7 @@ body {
   font-family: 'Orbitron', cursive;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+
   position: relative;
 }
 
@@ -196,7 +196,6 @@ nav ul li a:hover:after {
 /* Main Section */
 .mainSection {
   display: flex;
-  width: 100%;
   position: relative;
   height: 100vh;
   color: white;
@@ -227,7 +226,7 @@ nav ul li a:hover:after {
 
 .textSection h1 {
   font-family: 'Orbitron', sans-serif;
-  white-space: nowrap;
+
   font-size: 3rem;
   margin-bottom: 1rem;
   position: relative;
