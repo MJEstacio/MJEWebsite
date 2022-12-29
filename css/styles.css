@@ -272,6 +272,7 @@ nav ul li a:hover:after {
   line-height: 30px;
   padding: 20px 150px;
   background-color: white;
+  transform: skewX(50deg);
   border-radius: 20px;
   font-family: 'Roboto', sans-serif;
   position: relative;
@@ -290,7 +291,6 @@ nav ul li a:hover:after {
 .dlcv-btn button:hover {
   background-color: #ec2410;
   color: white;
-  transform: translateY(-5px);
 }
 .dlcv-btn a {
   text-decoration: none;
@@ -301,7 +301,6 @@ nav ul li a:hover:after {
 .dlcv-btn a button {
   font-family: 'Orbitron', cursive;
 }
-/* Profile Section */
 /* Skill Section */
 .skill-section {
   position: relative;
@@ -331,7 +330,6 @@ nav ul li a:hover:after {
 
 .skill-container {
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -354,7 +352,6 @@ nav ul li a:hover:after {
 .skill-card:hover {
   background-color: aliceblue;
   color: #060606;
-
   box-shadow: 2px 5px;
 }
 .skill-card i {
