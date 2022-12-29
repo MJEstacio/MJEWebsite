@@ -109,6 +109,7 @@ nav ul li {
   top: 25px;
   right: 30px;
   color: white;
+  transform: translateX();
 }
 
 nav ul li a {
@@ -248,11 +249,7 @@ nav ul li a:hover:after {
   justify-content: center;
   align-items: center;
   margin: auto;
-  background-image: linear-gradient(
-    to bottom,
-    #060606,
-    #150020
-  );
+  background-image: linear-gradient(to bottom, #060606, #150020);
 }
 .profile-section img {
   width: 200px;
@@ -269,7 +266,7 @@ nav ul li a:hover:after {
   font-family: 'Orbitron', cursive;
 }
 .profile-section p {
-  width: 70%;
+  width: 50%;
   display: flex;
   margin: 10px auto;
   line-height: 30px;
@@ -311,7 +308,6 @@ nav ul li a:hover:after {
   padding: 40px 0;
   justify-content: center;
   align-items: center;
-
   background-image: linear-gradient(
       to bottom,
       rgba(25, 25, 25, 0.52),
@@ -430,6 +426,7 @@ nav ul li a:hover:after {
   border: 1px solid red;
   transition: 1s ease-in-out;
 }
+
 .portfolio-card:hover {
   transform: translateY(-5px);
 }
